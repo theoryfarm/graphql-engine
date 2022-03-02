@@ -265,6 +265,8 @@ set to ``$.hasura.claims``:
    values set. If neither keys are set, then the default value of
    ``claims_namespace`` i.e. https://hasura.io/jwt/claims will be used.
 
+``claims_format``
+^^^^^^^^^^^^^^^^^
 This is an optional field, with only the following possible values:
 - ``json``
 - ``stringified_json``
